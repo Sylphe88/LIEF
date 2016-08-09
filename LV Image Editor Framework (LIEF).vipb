@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-08-08 10:34:40" Modified_Date="2016-08-08 10:52:42" Creator="frmausse" Comments="" ID="fbf0f5e04cd3c06fa5ae686bdf5e2991">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-08-08 10:34:40" Modified_Date="2016-08-08 17:44:19" Creator="frmausse" Comments="" ID="589268bc3697838b220e72bdac91ad86">
   <Library_General_Settings>
     <Package_File_Name>lib_LV_Image_Editor_Framework_LIEF</Package_File_Name>
-    <Library_Version>1.0.0.3</Library_Version>
+    <Library_Version>0.5.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
-    <Library_Output_Folder>..\..\..</Library_Output_Folder>
+    <Library_Output_Folder>..\..\Users\frmausse\Desktop</Library_Output_Folder>
     <Company_Name>EricM</Company_Name>
     <Library_Summary/>
     <Library_License/>
@@ -230,7 +230,7 @@ Configuration-based editors or graphical viewers can easily be powered by LIEF. 
         <Path>Image Editor Handler</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3C9DABBD4F3FE575440FFAF757E79E9C</GUID>
+      <GUID>85159525B1444E06F2D34A5236CD24ED</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -321,7 +321,7 @@ Configuration-based editors or graphical viewers can easily be powered by LIEF. 
         <Path>Forms\Text</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>228304DB70F178104E571104A14CFD81</GUID>
+      <GUID>808C70C51F4EE0414A314FC41A658811</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -482,7 +482,7 @@ Configuration-based editors or graphical viewers can easily be powered by LIEF. 
         <Path>Image Editor Handler\Read Events.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3E60A143CCFADC47113FC9691444AAB0</GUID>
+      <GUID>C9DD9852201B089E0283B75F73157B4B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -517,7 +517,7 @@ Configuration-based editors or graphical viewers can easily be powered by LIEF. 
         <Path>Forms\Line\Write Style.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>051B292590DA66F68E87AA1DC684F069</GUID>
+      <GUID>A3ED5F3D387D3C45F1CA2ED1ADAED528</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -566,7 +566,7 @@ Configuration-based editors or graphical viewers can easily be powered by LIEF. 
         <Path>Forms\Link\Create Link.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>42A43D551792B9AFEA05136BAEF1B507</GUID>
+      <GUID>1F6AFB380D861D12511C58BDDE15559C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -601,7 +601,7 @@ Configuration-based editors or graphical viewers can easily be powered by LIEF. 
         <Path>Forms\Rectangle\Write Filled.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9CB40F22373B5B6020B79958A3828B56</GUID>
+      <GUID>70ECF593496925C6D8A1D332E8D3A809</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -790,7 +790,7 @@ Configuration-based editors or graphical viewers can easily be powered by LIEF. 
         <Path>Forms\Shape\Release Local References.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BC72126B8D19349A1ABC62B2D297E4A8</GUID>
+      <GUID>B2EF8486334FE4D7792D10372A73782F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -839,7 +839,7 @@ Configuration-based editors or graphical viewers can easily be powered by LIEF. 
         <Path>Forms\Text\Write Text.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4AB43FB1A478A146BF12391D7CD61328</GUID>
+      <GUID>20F3EA254A7775F512B7998C7E3D411D</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
