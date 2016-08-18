@@ -42,6 +42,7 @@
 				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
 			</Item>
 			<Item Name="Handler UI Callbacks.lvlib" Type="Library" URL="../Image Editor Handler/Callbacks/Handler UI Callbacks.lvlib"/>
+			<Item Name="Untitled.rtm" Type="Document" URL="../../../Users/frmausse/Desktop/Untitled.rtm"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Clock" Type="EXE">
