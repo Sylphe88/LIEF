@@ -23,4 +23,5 @@ The LIEF library offers the base classes to define most behavior and most shapes
 	<Item Name="Image.lvclass" Type="LVClass" URL="../Image/Image.lvclass">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Picture Template.ctl" Type="VI" URL="../Picture Template.ctl"/>
 </Library>

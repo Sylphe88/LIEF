@@ -1,6 +1,62 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="15008000">
+	<Property Name="CCSymbols" Type="Str"></Property>
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
+	<Property Name="utf.calculate.project.code.coverage" Type="Bool">true</Property>
+	<Property Name="utf.create.arraybrackets" Type="Str">[]</Property>
+	<Property Name="utf.create.arraythreshold" Type="UInt">100</Property>
+	<Property Name="utf.create.captureinputvalues" Type="Bool">true</Property>
+	<Property Name="utf.create.captureoutputvalues" Type="Bool">true</Property>
+	<Property Name="utf.create.codecoverage.flag" Type="Bool">false</Property>
+	<Property Name="utf.create.codecoverage.value" Type="UInt">100</Property>
+	<Property Name="utf.create.editor.flag" Type="Bool">false</Property>
+	<Property Name="utf.create.editor.path" Type="Path"></Property>
+	<Property Name="utf.create.nameseparator" Type="Str">/</Property>
+	<Property Name="utf.create.precision" Type="UInt">6</Property>
+	<Property Name="utf.create.repetitions" Type="UInt">1</Property>
+	<Property Name="utf.create.testpath.flag" Type="Bool">false</Property>
+	<Property Name="utf.create.testpath.path" Type="Path"></Property>
+	<Property Name="utf.create.timeout.flag" Type="Bool">false</Property>
+	<Property Name="utf.create.timeout.value" Type="UInt">0</Property>
+	<Property Name="utf.create.type" Type="UInt">0</Property>
+	<Property Name="utf.enable.RT.VI.server" Type="Bool">false</Property>
+	<Property Name="utf.passwords" Type="Bin">&amp;1#!!!!!!!)!%%!Q`````Q:4&gt;(*J&lt;G=!!":!1!!"`````Q!!#6"B=X.X&lt;X*E=Q!"!!%!!!!"!!!!#F652E&amp;-4&amp;.516)!!!!!</Property>
+	<Property Name="utf.report.atml.create" Type="Bool">false</Property>
+	<Property Name="utf.report.atml.path" Type="Path">ATML report.xml</Property>
+	<Property Name="utf.report.atml.view" Type="Bool">false</Property>
+	<Property Name="utf.report.details.errors" Type="Bool">false</Property>
+	<Property Name="utf.report.details.failed" Type="Bool">false</Property>
+	<Property Name="utf.report.details.passed" Type="Bool">false</Property>
+	<Property Name="utf.report.errors" Type="Bool">true</Property>
+	<Property Name="utf.report.failed" Type="Bool">true</Property>
+	<Property Name="utf.report.html.create" Type="Bool">false</Property>
+	<Property Name="utf.report.html.path" Type="Path">HTML report.html</Property>
+	<Property Name="utf.report.html.view" Type="Bool">false</Property>
+	<Property Name="utf.report.passed" Type="Bool">true</Property>
+	<Property Name="utf.report.skipped" Type="Bool">true</Property>
+	<Property Name="utf.report.sortby" Type="UInt">1</Property>
+	<Property Name="utf.report.stylesheet.flag" Type="Bool">false</Property>
+	<Property Name="utf.report.stylesheet.path" Type="Path"></Property>
+	<Property Name="utf.report.summary" Type="Bool">true</Property>
+	<Property Name="utf.report.txt.create" Type="Bool">false</Property>
+	<Property Name="utf.report.txt.path" Type="Path">ASCII report.txt</Property>
+	<Property Name="utf.report.txt.view" Type="Bool">false</Property>
+	<Property Name="utf.run.changed.days" Type="UInt">1</Property>
+	<Property Name="utf.run.changed.outdated" Type="Bool">false</Property>
+	<Property Name="utf.run.changed.timestamp" Type="Bin">&amp;1#!!!!!!!%!%%"5!!9*2'&amp;U:3^U;7VF!!%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	<Property Name="utf.run.days.flag" Type="Bool">false</Property>
+	<Property Name="utf.run.includevicallers" Type="Bool">false</Property>
+	<Property Name="utf.run.logfile.flag" Type="Bool">false</Property>
+	<Property Name="utf.run.logfile.overwrite" Type="Bool">false</Property>
+	<Property Name="utf.run.logfile.path" Type="Path">test execution log.txt</Property>
+	<Property Name="utf.run.modified.last.run.flag" Type="Bool">true</Property>
+	<Property Name="utf.run.priority.flag" Type="Bool">false</Property>
+	<Property Name="utf.run.priority.value" Type="UInt">5</Property>
+	<Property Name="utf.run.statusfile.flag" Type="Bool">false</Property>
+	<Property Name="utf.run.statusfile.path" Type="Path">test status log.txt</Property>
+	<Property Name="utf.run.timestamp.flag" Type="Bool">false</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -24,25 +80,29 @@
 		<Item Name="LV Image Editor Framework.lvlib" Type="Library" URL="../LV Image Editor Framework.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Check Color Table Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Color Table Size.vi"/>
+				<Item Name="Check Data Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Data Size.vi"/>
+				<Item Name="Check File Permissions.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check File Permissions.vi"/>
+				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
 				<Item Name="Draw Line.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Line.vi"/>
 				<Item Name="Draw Rectangle.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Rectangle.vi"/>
 				<Item Name="Draw Text in Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Text in Rect.vi"/>
 				<Item Name="Empty Picture" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Empty Picture"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="eventsource.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventsource.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
-				<Item Name="lveventtype.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/lveventtype.ctl"/>
+				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
 				<Item Name="Move Pen.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Move Pen.vi"/>
 				<Item Name="PCT Pad String.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/PCT Pad String.vi"/>
+				<Item Name="Picture to Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Picture to Pixmap.vi"/>
 				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
+				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
 			</Item>
-			<Item Name="Handler UI Callbacks.lvlib" Type="Library" URL="../Image Editor Handler/Callbacks/Handler UI Callbacks.lvlib"/>
-			<Item Name="Untitled.rtm" Type="Document" URL="../../../Users/frmausse/Desktop/Untitled.rtm"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Clock" Type="EXE">
