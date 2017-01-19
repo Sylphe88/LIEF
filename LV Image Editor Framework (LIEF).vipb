@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-08-08 10:34:40" Modified_Date="2017-01-19 10:30:12" Creator="frmausse" Comments="" ID="65934688d795d6574ca9cf109a02a4d6">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-08-08 10:34:40" Modified_Date="2017-01-19 10:37:21" Creator="frmausse" Comments="" ID="27c91912d5c076b28f6f47f10763c8d3">
   <Library_General_Settings>
     <Package_File_Name>lib_LIEF</Package_File_Name>
-    <Library_Version>0.7.0.2</Library_Version>
+    <Library_Version>0.7.1.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\Users\frmausse\Desktop</Library_Output_Folder>
@@ -37,7 +37,8 @@ Configuration-based editors or graphical viewers can easily be powered by LIEF. 
       <Copyright/>
       <Packager>EricM</Packager>
       <URL/>
-      <Release_Notes>Changed events registration, added round rectangles.</Release_Notes>
+      <Release_Notes>Added shape removal by reference.
+Fixed Draw reentrancy.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -233,7 +234,7 @@ Configuration-based editors or graphical viewers can easily be powered by LIEF. 
         <Path>Image Editor Handler</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B645A1F8246302C5BB8854BE0D1F27C5</GUID>
+      <GUID>9D08CE1F1EAA1D3FB20881F907939A99</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -324,7 +325,7 @@ Configuration-based editors or graphical viewers can easily be powered by LIEF. 
         <Path>Forms\Text</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>812EADB7AE21C55A6402430930A3E516</GUID>
+      <GUID>4846A19E24EA8E57959B14C6F6498DDD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -404,20 +405,6 @@ Configuration-based editors or graphical viewers can easily be powered by LIEF. 
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Send RemoveShape Event.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>Image Editor Handler\Send RemoveShape Event.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Send RequestShapes Event.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -457,7 +444,21 @@ Configuration-based editors or graphical viewers can easily be powered by LIEF. 
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>E11BC811D18618A86DBE36D59DB818C2</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Send RemoveShap Event (Poly).vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Image Editor Handler\Send RemoveShap Event (Poly).vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>1ABB964D8C5AD868B097C1BAF8FE9B56</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -506,7 +507,21 @@ Configuration-based editors or graphical viewers can easily be powered by LIEF. 
         <Path>Forms\Line\Write Style.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4588703D1350823E605112CCF56FFAFF</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>BUILT_IN_FUNC_1920_8_2_Property Node</NameSub_Menu_Name>
+        <Short_Name>Property Node</Short_Name>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path/>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>3DA89D96F7E169F89A2EF9CAE6012E90</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -555,7 +570,21 @@ Configuration-based editors or graphical viewers can easily be powered by LIEF. 
         <Path>Forms\Link\Create Link.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4F602D30B149C2436460FD3F8F5ADBBB</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>BUILT_IN_FUNC_1920_8_2_Property Node</NameSub_Menu_Name>
+        <Short_Name>Property Node</Short_Name>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path/>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>96148084E0F6A2569A1AF4E2EBF30312</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -618,7 +647,21 @@ Configuration-based editors or graphical viewers can easily be powered by LIEF. 
         <Path>Forms\Rectangle\Set Rounding Parameters.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1E7E0D78A70A8358DB7737658EC93A3A</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>BUILT_IN_FUNC_1920_8_2_Property Node</NameSub_Menu_Name>
+        <Short_Name>Property Node</Short_Name>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path/>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>428BDE0B5E54B72981108CAD8A742FF7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -723,7 +766,7 @@ Configuration-based editors or graphical viewers can easily be powered by LIEF. 
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>A43B6A730F2331BDA52784FCE2DC0CC5</GUID>
+      <GUID>BEFF0739EC87B742BDA0256CFCF10B96</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -772,7 +815,21 @@ Configuration-based editors or graphical viewers can easily be powered by LIEF. 
         <Path>Forms\Text\Write Text.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A739F16F3BB1B66909A3A190CBAF55D1</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>BUILT_IN_FUNC_1920_8_2_Property Node</NameSub_Menu_Name>
+        <Short_Name>Property Node</Short_Name>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path/>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>D7EBF8E670008AC164032C84D6F9765E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -835,7 +892,7 @@ Configuration-based editors or graphical viewers can easily be powered by LIEF. 
         <Path>Image Editor Handler\Send ShapePropertyChange Event.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>80AEA4485FC64E996D0423A655A0C101</GUID>
+      <GUID>01350875CE87DCF756C3D6367194A508</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
