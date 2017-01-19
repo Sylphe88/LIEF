@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-08-08 10:34:40" Modified_Date="2017-01-16 10:59:18" Creator="frmausse" Comments="" ID="0f4521682123c03f4d5e50c1049a77fe">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-08-08 10:34:40" Modified_Date="2017-01-19 10:30:12" Creator="frmausse" Comments="" ID="65934688d795d6574ca9cf109a02a4d6">
   <Library_General_Settings>
     <Package_File_Name>lib_LIEF</Package_File_Name>
     <Library_Version>0.7.0.2</Library_Version>
@@ -233,7 +233,7 @@ Configuration-based editors or graphical viewers can easily be powered by LIEF. 
         <Path>Image Editor Handler</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EEDED935106EB6CA58969C30D8BA482D</GUID>
+      <GUID>B645A1F8246302C5BB8854BE0D1F27C5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -324,7 +324,7 @@ Configuration-based editors or graphical viewers can easily be powered by LIEF. 
         <Path>Forms\Text</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>83A3FB38CF81D444C9FE1E229F5B3E59</GUID>
+      <GUID>812EADB7AE21C55A6402430930A3E516</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -457,7 +457,7 @@ Configuration-based editors or graphical viewers can easily be powered by LIEF. 
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>0762B4630A30CA3107056C1B8E242E6F</GUID>
+      <GUID>E11BC811D18618A86DBE36D59DB818C2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -506,7 +506,7 @@ Configuration-based editors or graphical viewers can easily be powered by LIEF. 
         <Path>Forms\Line\Write Style.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3CDEBF5EE0A5511B6B9A257A55FB1EB1</GUID>
+      <GUID>4588703D1350823E605112CCF56FFAFF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -555,7 +555,7 @@ Configuration-based editors or graphical viewers can easily be powered by LIEF. 
         <Path>Forms\Link\Create Link.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>48048749762D96D0D7E38D97807DD637</GUID>
+      <GUID>4F602D30B149C2436460FD3F8F5ADBBB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -618,7 +618,7 @@ Configuration-based editors or graphical viewers can easily be powered by LIEF. 
         <Path>Forms\Rectangle\Set Rounding Parameters.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F7CE560C97DBDAC1E1FCE918F37A429F</GUID>
+      <GUID>1E7E0D78A70A8358DB7737658EC93A3A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -723,7 +723,7 @@ Configuration-based editors or graphical viewers can easily be powered by LIEF. 
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>A6FB2C541774856ED1D26D71E9E33CE9</GUID>
+      <GUID>A43B6A730F2331BDA52784FCE2DC0CC5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -772,7 +772,7 @@ Configuration-based editors or graphical viewers can easily be powered by LIEF. 
         <Path>Forms\Text\Write Text.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>42AEB6F12337F0014B7D4306F47DCF19</GUID>
+      <GUID>A739F16F3BB1B66909A3A190CBAF55D1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -835,7 +835,7 @@ Configuration-based editors or graphical viewers can easily be powered by LIEF. 
         <Path>Image Editor Handler\Send ShapePropertyChange Event.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>72CA177783BEBA31E31745DDC19F3E51</GUID>
+      <GUID>80AEA4485FC64E996D0423A655A0C101</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
