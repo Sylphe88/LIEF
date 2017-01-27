@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-08-08 10:34:40" Modified_Date="2017-01-19 10:37:21" Creator="frmausse" Comments="" ID="27c91912d5c076b28f6f47f10763c8d3">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-08-08 10:34:40" Modified_Date="2017-01-27 12:01:42" Creator="frmausse" Comments="" ID="93b86e489ae9592c37e6425295f14dff">
   <Library_General_Settings>
     <Package_File_Name>lib_LIEF</Package_File_Name>
-    <Library_Version>0.7.1.2</Library_Version>
+    <Library_Version>0.7.3.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\Users\frmausse\Desktop</Library_Output_Folder>
@@ -38,7 +38,8 @@ Configuration-based editors or graphical viewers can easily be powered by LIEF. 
       <Packager>EricM</Packager>
       <URL/>
       <Release_Notes>Added shape removal by reference.
-Fixed Draw reentrancy.</Release_Notes>
+Fixed Draw reentrancy.
+Fixed Link creation when using Selection shape</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -234,7 +235,7 @@ Fixed Draw reentrancy.</Release_Notes>
         <Path>Image Editor Handler</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9D08CE1F1EAA1D3FB20881F907939A99</GUID>
+      <GUID>80910BCBFC2FC1ED33C6B7EE837F3365</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -325,7 +326,7 @@ Fixed Draw reentrancy.</Release_Notes>
         <Path>Forms\Text</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4846A19E24EA8E57959B14C6F6498DDD</GUID>
+      <GUID>3F5EF9833552A3CF4A581E259571D909</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -458,7 +459,7 @@ Fixed Draw reentrancy.</Release_Notes>
         <Path>Image Editor Handler\Send RemoveShap Event (Poly).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1ABB964D8C5AD868B097C1BAF8FE9B56</GUID>
+      <GUID>47C2A98FFF711A8B56FD00E54FEFA585</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -521,7 +522,7 @@ Fixed Draw reentrancy.</Release_Notes>
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>3DA89D96F7E169F89A2EF9CAE6012E90</GUID>
+      <GUID>7D1BA2E2220903C2B55C9BBE8134B393</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -584,7 +585,7 @@ Fixed Draw reentrancy.</Release_Notes>
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>96148084E0F6A2569A1AF4E2EBF30312</GUID>
+      <GUID>F4DB96526966F70888F4EFDEB8F2EC90</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -661,7 +662,7 @@ Fixed Draw reentrancy.</Release_Notes>
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>428BDE0B5E54B72981108CAD8A742FF7</GUID>
+      <GUID>48526721E0D87D64D975F2EB67E8BEC1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -766,7 +767,7 @@ Fixed Draw reentrancy.</Release_Notes>
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>BEFF0739EC87B742BDA0256CFCF10B96</GUID>
+      <GUID>93FC23A304D8934012042725895A665C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -829,7 +830,7 @@ Fixed Draw reentrancy.</Release_Notes>
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>D7EBF8E670008AC164032C84D6F9765E</GUID>
+      <GUID>AC9DF79380C3BE39BD4EA719AF8B2BD4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -892,7 +893,7 @@ Fixed Draw reentrancy.</Release_Notes>
         <Path>Image Editor Handler\Send ShapePropertyChange Event.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>01350875CE87DCF756C3D6367194A508</GUID>
+      <GUID>F16D9713109A0165EDAA0A0DA0E6E5B8</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

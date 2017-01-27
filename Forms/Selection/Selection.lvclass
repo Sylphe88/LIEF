@@ -57,6 +57,15 @@
 		</Item>
 	</Item>
 	<Item Name="Utility" Type="Folder">
+		<Item Name="Obtain Real Class.vi" Type="VI" URL="../Obtain Real Class.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%D!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!P(UR7)%FN97&gt;F)%6E;82P=C"'=G&amp;N:8&gt;P=GMO&lt;(:M;7).5WBB='5O&lt;(:D&lt;'&amp;T=Q!&amp;5WBB='5!&amp;U"Q!#!!!1!&amp;!!N*&lt;GZF=C"4;'&amp;Q:1!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"&amp;!=!!A!!%!"1!&amp;5WBB='5!6!$Q!!Q!!Q!%!!1!"A!%!!1!"!!%!!=!"!!%!!A$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!I!!!!!!1!*!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+		</Item>
 		<Item Name="Toggle Selection.vi" Type="VI" URL="../Toggle Selection.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%;!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!)1F/:8=A5X2B&gt;'5!0E"Q!"Y!!#]@4&amp;9A37VB:W5A272J&gt;'^S)%:S97VF&gt;W^S;SZM&gt;GRJ9AV4;'&amp;Q:3ZM&gt;G.M98.T!!64;'&amp;Q:1!21(!!)!!"!!9!"6.I98"F!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!6!$Q!!Q!!Q!%!!5!"Q!%!!1!"!!%!!A!"!!%!!=$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!I!!!!!!1!*!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
