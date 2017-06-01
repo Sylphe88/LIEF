@@ -11,6 +11,7 @@ The LIEF library offers the base classes to define most behavior and most shapes
 
 </Property>
 	<Item Name="Forms" Type="Folder">
+		<Item Name="Grid.lvclass" Type="LVClass" URL="../Forms/Grid/Grid.lvclass"/>
 		<Item Name="Layered Shape.lvclass" Type="LVClass" URL="../Forms/Layered Shape/Layered Shape.lvclass"/>
 		<Item Name="Line.lvclass" Type="LVClass" URL="../Forms/Line/Line.lvclass"/>
 		<Item Name="Link.lvclass" Type="LVClass" URL="../Forms/Link/Link.lvclass"/>
