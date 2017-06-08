@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-08-08 10:34:40" Modified_Date="2017-05-31 19:04:49" Creator="frmausse" Comments="" ID="60606335f7851a3681056a9432ceb4bb">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-08-08 10:34:40" Modified_Date="2017-06-08 14:13:26" Creator="frmausse" Comments="" ID="6f994aa78926bf9bd11df5ed46bb0c39">
   <Library_General_Settings>
     <Package_File_Name>lib_LIEF</Package_File_Name>
-    <Library_Version>0.8.1.3</Library_Version>
+    <Library_Version>0.8.2.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\Users\frmausse\Desktop</Library_Output_Folder>
@@ -242,7 +242,7 @@ Adjusted Selection Creation</Release_Notes>
         <Path>Image Editor Handler</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6B5F60520E8DC85FAE1F7407E35883C7</GUID>
+      <GUID>A62466FD753D838F92DB97DC8ECE56C2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -347,7 +347,7 @@ Adjusted Selection Creation</Release_Notes>
         <Path>Forms\Text</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E3259FC3AB95FFDBEBDC8BFA2BF4DD75</GUID>
+      <GUID>76DA7B84517A401C0F5F173A5CCB8AFB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -480,7 +480,7 @@ Adjusted Selection Creation</Release_Notes>
         <Path>Image Editor Handler\Send RemoveShap Event (Poly).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>32D07B62330DF37119D19C648C8A3062</GUID>
+      <GUID>D4A1530698717630E383D26D39692779</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -543,7 +543,7 @@ Adjusted Selection Creation</Release_Notes>
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>FE3B340EA4DF991BB84DA6EF78C5CB16</GUID>
+      <GUID>64BCB29D5E0F08E658D52356967626B4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -606,7 +606,7 @@ Adjusted Selection Creation</Release_Notes>
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>98BB2D21465451F1A355735FB413A236</GUID>
+      <GUID>C1B1970A33816BD390B43C5F45128FD1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -683,7 +683,7 @@ Adjusted Selection Creation</Release_Notes>
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>D879330C6A3D62D9829442AAB851A28F</GUID>
+      <GUID>B21B175C0DD9EAFB3E41F290ED5CECD6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -788,7 +788,7 @@ Adjusted Selection Creation</Release_Notes>
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>490665C0A2CF446D569C89C74745B4DA</GUID>
+      <GUID>AFEEA7E7D99165D4455A896C333262A8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -851,7 +851,7 @@ Adjusted Selection Creation</Release_Notes>
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>1E663186A7A61D7AC2E2F8C3E0F62A22</GUID>
+      <GUID>FAEF169946EC0B46521CFC414A7ED68B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -914,7 +914,7 @@ Adjusted Selection Creation</Release_Notes>
         <Path>Image Editor Handler\Send ShapePropertyChange Event.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8F26AEE9C67E2416EFC572C840394150</GUID>
+      <GUID>10DCCBE0E67F731B4DAD8C7CD6EE49CC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -991,7 +991,7 @@ Adjusted Selection Creation</Release_Notes>
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>93D5BB7676BD13E13B9BF8E61C53581C</GUID>
+      <GUID>BC3752EBCF403F7DCCFAF961AB7F58F6</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
