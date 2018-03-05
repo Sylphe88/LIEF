@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-08-08 10:34:40" Modified_Date="2018-02-16 09:08:35" Creator="frmausse" Comments="" ID="89a48ce34277d09405fb054c82646378">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-08-08 10:34:40" Modified_Date="2018-03-05 16:54:10" Creator="frmausse" Comments="" ID="c64de2f59b033aef3475ec4312598a47">
   <Library_General_Settings>
     <Package_File_Name>lib_LIEF</Package_File_Name>
-    <Library_Version>0.8.3.3</Library_Version>
+    <Library_Version>0.8.5.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\Users\EricAdmin\Desktop</Library_Output_Folder>
@@ -37,7 +37,11 @@ Configuration-based editors or graphical viewers can easily be powered by LIEF. 
       <Copyright/>
       <Packager>EricM</Packager>
       <URL/>
-      <Release_Notes>0.8.3 - 
+      <Release_Notes>0.8.5 - Added Get Real Class in Launch Dialog Core because there was a race condition where the selection ref is deleted by the Mouse Up event so the dialog ended up using an invalid ref
+
+0.8.4 - Removed Generate Event for Shape Dialog (and wait time). The event is generated anyway in the LIEF Editor right after.
+
+0.8.3 - 
 Changed Shape Dialog so it uses the shape ref on launch
 Added Line style for rectangle shapes
 ToDo: Use a better grid system
@@ -247,7 +251,7 @@ Adjusted Selection Creation</Release_Notes>
         <Path>Image Editor Handler</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>584726660409B57FAE49859615F778AB</GUID>
+      <GUID>D6DC1316E30EC6FB3A224C9EF5181A1F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -352,7 +356,7 @@ Adjusted Selection Creation</Release_Notes>
         <Path>Forms\Text</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6DAE628EF2D50DF9FAC5DBAE4BF90EF3</GUID>
+      <GUID>B1AF4CBF09403C6EB1EFC53D7A5A0DB4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -485,7 +489,7 @@ Adjusted Selection Creation</Release_Notes>
         <Path>Image Editor Handler\Send RemoveShap Event (Poly).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E3BA0147D479A59CD1DC7E5DA9655C34</GUID>
+      <GUID>5CA26C0072768DBBB74A759E7D519CE9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -548,7 +552,7 @@ Adjusted Selection Creation</Release_Notes>
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>2488AF45E4FC3804B0D7D063E1915D2B</GUID>
+      <GUID>1D2270C11738557FA46A2F040E467B60</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -611,7 +615,7 @@ Adjusted Selection Creation</Release_Notes>
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>E0FA21693F19127670077BA432074E91</GUID>
+      <GUID>3C14BD06050ADFD7E956BF50D7B63F58</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -688,7 +692,7 @@ Adjusted Selection Creation</Release_Notes>
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>668450BB26449CA4562DF9692FC60AAB</GUID>
+      <GUID>CBDB9FCD80ED8F22FA97E91FCE94A684</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -793,7 +797,21 @@ Adjusted Selection Creation</Release_Notes>
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>2BA481EF9CDF1E7D46733F17652D7260</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Obtain Real Class.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Forms\Selection\Obtain Real Class.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>A2EB830ADB014C0E8664E83A46D536F6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -856,7 +874,7 @@ Adjusted Selection Creation</Release_Notes>
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>6D6DCE3FB6B8DB71929C17AEB332F4A1</GUID>
+      <GUID>E2271C3646063F96E3B82C0851DD22FF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -919,7 +937,7 @@ Adjusted Selection Creation</Release_Notes>
         <Path>Image Editor Handler\Send ShapePropertyChange Event.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5E648C44ECBE53318150D28CD6CF76E3</GUID>
+      <GUID>F76427CE9C669833F0AFFE311E8C0047</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -996,7 +1014,7 @@ Adjusted Selection Creation</Release_Notes>
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>EC7869775986BB6EB9FA8A02E7659DF4</GUID>
+      <GUID>93ADA86C420DDDAE9221229371C14C88</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
