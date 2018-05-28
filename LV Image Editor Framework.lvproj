@@ -75,8 +75,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Clock Example.vi" Type="VI" URL="../Clock Example.vi"/>
-		<Item Name="Editor Tester.vi" Type="VI" URL="../Editor Tester.vi"/>
 		<Item Name="LV Image Editor Framework.lvlib" Type="Library" URL="../LV Image Editor Framework.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -136,7 +134,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{AEA4C00D-0862-43FC-B0E0-88506FF1FF9B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Clock Example.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
