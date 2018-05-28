@@ -75,9 +75,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Clock Example.vi" Type="VI" URL="../Clock Example.vi"/>
-		<Item Name="Editor Tester.vi" Type="VI" URL="../Editor Tester.vi"/>
-		<Item Name="LV Image Editor Framework.lvlib" Type="Library" URL="../LV Image Editor Framework.lvlib"/>
+		<Item Name="Editor Tester.vi" Type="VI" URL="/&lt;vilib&gt;/LIEF/Editor Tester.vi"/>
+		<Item Name="LV Image Editor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/LIEF/LV Image Editor Framework.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check Color Table Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Color Table Size.vi"/>
@@ -107,46 +106,47 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Clock" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{88B66B5D-5D49-4738-AF3F-61A765817488}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{DADFADAB-DE64-4290-9C21-DF8C852C9C9F}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_winsec.description" Type="Str">http://www.NI.com</Property>
+			<Item Name="LIEF PPL" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{29D1B5A0-C013-46B6-8401-C781B49894A8}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Clock</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{F02A4E8C-02C9-4A94-8C90-7EFDCE6386EE}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">LIEF PPL</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/frmausse/Desktop/Clock</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/EricAdmin/Desktop</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{D503E95D-7986-47FF-BA70-4C08BBBA42FD}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{3E816533-71E1-4954-AC6C-C662C1320A88}</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Clock.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/frmausse/Desktop/Clock/Clock.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">LIEF.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/EricAdmin/Desktop/LIEF.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/frmausse/Desktop/Clock/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/EricAdmin/Desktop</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{AEA4C00D-0862-43FC-B0E0-88506FF1FF9B}</Property>
+				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{561918C7-4420-4FA8-A607-41D7AB6FA3F7}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Clock Example.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LV Image Editor Framework.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">NI</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Clock</Property>
-				<Property Name="TgtF_internalName" Type="Str">Clock</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 NI</Property>
-				<Property Name="TgtF_productName" Type="Str">Clock</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{0A17B545-D855-4D30-ACBC-569FE1AE97DA}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Clock.exe</Property>
+				<Property Name="TgtF_companyName" Type="Str">Neosoft Technologies</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">LIEF PPL</Property>
+				<Property Name="TgtF_internalName" Type="Str">LIEF PPL</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 Neosoft Technologies</Property>
+				<Property Name="TgtF_productName" Type="Str">LIEF PPL</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{CA2DEBEA-F144-45D7-9D0C-CF45F259AE3A}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">LIEF.lvlibp</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
 	</Item>
